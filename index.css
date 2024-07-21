@@ -1,19 +1,68 @@
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    color: #f3f0f0;
 }
+body{
+    background-image: url(https://i.pinimg.com/originals/c6/66/e3/c666e308d4f44faf134bd0e2c0f9e785.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: #4d4d4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
 
+}
 .content{
     display: flex;
     justify-content: center;
-    align-items: center; 
-    height: 100vh;
+    align-items: center;
     flex-direction: column;
-    gap: 100px;
+    overflow: hidden;
+    gap: 20px;
+    width: 20%;
+    border-radius: 30px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 150px 10px white;
+}
+
+h2{
+    margin: 0;
+    margin-top: 30px;
+}
+
+button{
+    text-align: center;
+    background-color: transparent;
+    color: #f3f0f0;
+    border: 0px;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
+input{
+    text-align: center;
+    background-color: transparent;
+    color: #f3f0f0;
+    border: 0px;
+    border-radius: 99px;
+    border: 1px solid white;
+    height: 30px;
 }
 
 .respuesta{
+    padding-top: 30px;
     display: flex;
     gap: 20px;
+    max-width: 90%;
+    overflow: auto;
+    margin-top: 50px;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+    padding: 30px;
+    border-radius: 25px;
 }
